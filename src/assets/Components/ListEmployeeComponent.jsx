@@ -87,5 +87,5 @@ const ListEmployeeComponent = () => {
     </div>
   );
 };
-{/* Test checking */}
+{/* Test check */}
 export default ListEmployeeComponent;
