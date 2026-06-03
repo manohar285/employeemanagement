@@ -1,0 +1,23 @@
+
+
+.footer{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: black;
+    bottom: 0;
+}
+
+/* Hide the icon by default */
+.row-hover-actions .hover-action {
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out; /* Makes it fade in smoothly */
+}
+
+/* Show the icon when the table row is hovered */
+.row-hover-actions:hover .hover-action {
+  opacity: 1;
+}
+
