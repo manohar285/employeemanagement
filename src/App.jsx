@@ -12,7 +12,6 @@ function App() {
     <>
       <BrowserRouter>
         <HeaderComponent />
-        
         <Routes>
         {/*<Route path="/" element={<Login/>}></Route>
         <Route path="signup" element={<Signup/>}></Route>*/}
