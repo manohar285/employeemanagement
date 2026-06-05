@@ -1,17 +1,12 @@
 
-
-
-
-
-
 import "./App.css";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import ListEmployeeComponent from "./assets/Components/ListEmployeeComponent";
 import HeaderComponent from "./assets/Components/HeaderComponent";
 import FooterComponent from "./assets/Components/FooterComponent";
-import Login from "./assets/Components/Login";
 import { BrowserRouter,Routes,Route,Navigate } from "react-router-dom";
 import EmployeeComponent from "./assets/Components/EmployeeComponent";
+import Login from "./assets/Components/Login";
 import Signup from "./assets/Components/Signup";
 function App() {
   return (
