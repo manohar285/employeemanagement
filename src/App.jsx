@@ -15,7 +15,7 @@ function App() {
         <Routes>
         {/*<Route path="/" element={<Login/>}></Route>
         <Route path="signup" element={<Signup/>}></Route>*/}
-          <Route path="/" element={<ListEmployeeComponent/>}></Route>
+          {/*<Route path="/" element={<ListEmployeeComponent/>}></Route>*/}
           <Route path="/employees" element={<ListEmployeeComponent/>}></Route>
           <Route path="/add-employee" element={<EmployeeComponent/>}></Route>
           {/*http://localhost:3000/edit-employee/1*/}
